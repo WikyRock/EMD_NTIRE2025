@@ -43,5 +43,6 @@ and you can download our original test result: [Google Drive](https://drive.goog
 
 ### Acknowledgement
 
-Thanks to the inspirations and codes from [REDNet](https://github.com/xufangchn/Motion-Deblurring-with-Real-Events.git) and [Pan-Mamba](git@github.com:alexhe101/Pan-Mamba.git)
+Thanks to the inspirations and codes from [REDNet](https://github.com/xufangchn/Motion-Deblurring-with-Real-Events.git) and 
+[Pan-Mamba](git@github.com:alexhe101/Pan-Mamba.git)
 
