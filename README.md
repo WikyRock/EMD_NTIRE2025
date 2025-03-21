@@ -1,29 +1,40 @@
-# 项目名称
+# Dual Channel Cross-modal Mamba for Event-based Motion Deblurring
+`for NTIRE 2025 Event-Based Image Deblurring Challenge Factsheet`
+
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-这是一个示例项目的 README 文件，帮助用户快速了解项目内容、如何运行代码以及相关注意事项。
+Thank you for your arriving here!!!
 
-如果您对本项目感兴趣，请访问我们的 [官方网站](https://example.com) 或查看 [在线文档](https://docs.example.com)。
-
----
-
-## 目录结构
-
-以下是项目的目录结构，重要文件和文件夹已用方框标注：
-
----
-
-## 如何运行代码
-
-### 1. 克隆项目
-
-首先，将项目克隆到本地：
+### 1 Before using the code, you are advised to install `Mamba` related drivers and virtual environment.
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+conda create -n your_env_name python=3.10.13
+conda activate your_env_name
+conda install cudatoolkit==11.8 -c nvidia
+pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 torchaudio==2.1.1+cu118 -f https://mirror.sjtu.edu.cn/pytorch-wheels/torch_stable.html
+conda install -c "nvidia/label/cuda-11.8.0" cuda-nvcc
+conda install packaging
 ```
+
+### 2 The `Ver1.1.1` Conv-1d and Mamba-ssm are preferred.  You could download their zips and install them manually.
+Here are the Link:
+
+[Github causal-conv1d](https://github.com/Dao-AILab/causal-conv1d/releases)
+
+[Github mamba-ssm](https://github.com/state-spaces/mamba/releases)
+
+### 3 You could download the zip or clone our programe :
+```bash
+git clone https://github.com/WikyRock/EMD_NTIRE2025.git
+cd EMD_NTIRE2025-master
+```
+
+### 4 In order to use the mamba module correctly, please use the `selective_scan_interface.py` in document `modules` to cover the original version in the installed mamba dependencies.
+
+
+### 5 download pretrained model pth document to  
+
 你要讲运行`demo_test.py`文件
 
 src/utils.py
