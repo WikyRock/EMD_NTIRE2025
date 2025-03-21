@@ -11,3 +11,17 @@
 ## 目录结构
 
 以下是项目的目录结构，重要文件和文件夹已用方框标注：
+
+---
+
+## 如何运行代码
+
+### 1. 克隆项目
+
+首先，将项目克隆到本地：
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+你要讲运行[demo_test.py]文件
