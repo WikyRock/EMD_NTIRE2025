@@ -33,8 +33,7 @@ cd EMD_NTIRE2025-master
 ### 4 In order to use the mamba module correctly, please use the `selective_scan_interface.py` in document `modules` to cover the original version in the installed mamba dependencies.
 
 
-### 5 download pretrained model pth document to  
+### 5 download pretrained model pth document to `models` and load`demo_test.py` with changing the path of HighREV tset dataset path. Here is the link:
 
-你要讲运行`demo_test.py`文件
 
-src/utils.py
+
