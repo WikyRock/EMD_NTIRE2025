@@ -38,7 +38,10 @@ cd EMD_NTIRE2025-master
 Here is the link: [Google Drive](https://drive.google.com/drive/folders/1x9f8-q7mFggnCsx0TyOkK6T79K3mOt5g?usp=drive_link) 
 or [Baidu Drive](https://pan.baidu.com/s/1P_1UKENeKXxSJKysQlTcCw) Password: 1314
 
-and you can download our original test result: [Google Drive](https://drive.google.com/drive/folders/1x9f8-q7mFggnCsx0TyOkK6T79K3mOt5g?usp=drive_link)   [Baidu Drive](https://pan.baidu.com/s/1n4EDpjyeO6h9Pf1rpMIgjg) Password: 1314
+and you can download our original test result: [Google Drive](https://drive.google.com/drive/folders/1x9f8-q7mFggnCsx0TyOkK6T79K3mOt5g?usp=drive_link)  or  [Baidu Drive](https://pan.baidu.com/s/1n4EDpjyeO6h9Pf1rpMIgjg) Password: 1314
 
 
+### Acknowledgement
+
+Thanks to the inspirations and codes from [REDNet](https://github.com/xufangchn/Motion-Deblurring-with-Real-Events.git) and [Pan-Mamba](git@github.com:alexhe101/Pan-Mamba.git)
 
